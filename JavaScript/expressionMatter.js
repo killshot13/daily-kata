@@ -9,7 +9,7 @@ function expressionMatter(a, b, c) {
     let exp3 = (a + b * c);
     let exp4 = (a + b + c);
     let exp5 = ((a + b) * c);
-    let res = Math.max(exp1, exp2, exp3, exp4, exp5)
+    let res = Math.max(exp1, exp2, exp3, exp4, exp5);
     return res;
 }
 return expressionMatter;
