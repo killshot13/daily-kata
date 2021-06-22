@@ -1,3 +1,3 @@
 /**
- * Given a 2D array of size m * n. ind the sum of minimum value in each row
+ * Create a page that shows a message “I’m JavaScript!”.Do it in a sandbox, or on your hard drive, doesn’t matter, just ensure that it works.
  */
