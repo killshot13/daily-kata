@@ -4,7 +4,7 @@ function parseF(s) {
   let res = parseFloat(s);
   if (isNaN(res))
     return null;
-  else 
+  else
     return res;
 }
 return parseF;
