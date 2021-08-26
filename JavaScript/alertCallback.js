@@ -7,7 +7,7 @@ function getMessage(name) {
     document.write(message);
 
 // TODO: Add setTimeout code
-  setTimeout(
-  	() => { document.write('...Hello again!')},
-      2000
-    );
+setTimeout(
+  () => { document.write('...Hello again!')},
+    2000
+  );
