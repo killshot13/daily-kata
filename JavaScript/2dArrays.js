@@ -1,4 +1,4 @@
-// Given the 2D array (m * n), find the sum of the minimum values in each row
+// Given a 2D array (m * n), find the sum of the minimum values in each row.
 
 function sumOfMinimums(arr) {
 	const min = []
