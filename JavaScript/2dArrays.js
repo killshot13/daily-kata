@@ -3,16 +3,14 @@
  */
 
 function sumOfMinimums(arr) {
-  const min = [];
+	const min = []
 
-  arr.forEach(function (i) {
-    if (Array.isArray(i)) {
-      min.push(Math.min(...i));
-    } else {
-      min.push(i);
-    }
-  });
-  return min.reduce(function (a, b) {
-    return a + b;
-  }, 0);
+	arr.forEach((i) => {
+		if (Array.isArray(i)) {
+			min.push(Math.min(...i))
+		} else {
+			min.push(i)
+		}
+	})
+	return min.reduce((a, b) => a + b, 0)
 }
